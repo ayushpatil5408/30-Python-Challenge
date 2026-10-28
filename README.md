@@ -1,91 +1,182 @@
 <div align="center">
 
-# 🐍 30 Days of Python
+# 🐍 30 DAYS OF PYTHON
 
-### One small build a day. Thirty days of learning by making.
+### ✨ Learn by making. One little project at a time. ✨
 
-**Progress** · `Day 01 / 30`  
-`█░░░░░░░░░░░░░░░░░░░░░░░░░░░` **3%**
+<a href="#the-journey"><img src="https://img.shields.io/badge/🗺️_EXPLORE-THE_JOURNEY-7C3AED?style=for-the-badge" alt="Explore the journey"></a>
+<a href="#day-01--neon-mandala"><img src="https://img.shields.io/badge/🎨_CURRENT_BUILD-NEON_MANDALA-DB2777?style=for-the-badge" alt="Jump to the current build"></a>
+<a href="#run-it"><img src="https://img.shields.io/badge/▶_RUN-IT-0891B2?style=for-the-badge" alt="Jump to run instructions"></a>
 
-*A daily Python challenge featuring tiny projects, visual experiments, and new things learned along the way.*
+<br>
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![Challenge progress](https://img.shields.io/badge/Progress-01%20%2F%2030-8B5CF6?style=flat-square)
+![Projects](https://img.shields.io/badge/Projects-and%20counting-F97316?style=flat-square)
+
+<br>
+
+### THE CHALLENGE
+
+**30 days. 30 small builds. A little more Python confidence every day.**
+
+`DAY 01` &nbsp; ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━○ &nbsp; `DAY 30`
+
+**01 / 30 complete** &nbsp; · &nbsp; **3% explored**
 
 </div>
 
 ---
 
+<div align="center">
+
+### 🧭 QUICK NAVIGATION
+
+[🌌 The journey](#the-journey) &nbsp; ◇ &nbsp;
+[✨ Day 01](#day-01--neon-mandala) &nbsp; ◇ &nbsp;
+[▶ Run it](#run-it) &nbsp; ◇ &nbsp;
+[🗓️ Challenge map](#the-30-day-map) &nbsp; ◇ &nbsp;
+[💡 How to follow along](#how-to-follow-along)
+
+</div>
+
+---
+
+## 🌌 The journey
+
+Welcome to my **30-Day Python Challenge**: a hands-on streak of visual experiments, practical mini-projects, and new ideas. Each day gets its own project, a short write-up, and a place on the map below.
+
+<div align="center">
+
+> ### 🌠 First stop: a little neon, a lot of symmetry.
+>
+> **Day 01 is live:** petals orbit, stars sparkle, and a spiral takes center stage.
+
+</div>
+
 ## ✨ Day 01 — Neon Mandala
 
-A colorful geometric mandala drawn with Python's built-in `turtle` graphics. The design layers rotating petal rings over a starry night sky, then finishes with a shifting-color spiral.
+<div align="center">
 
-**What it explores**
+### 🌸 `✳` &nbsp; PETALS &nbsp; · &nbsp; STARS &nbsp; · &nbsp; SPIRAL &nbsp; `✳`
 
-- Drawing shapes and patterns with `turtle`
-- Reusable functions and loops
-- Color conversion with `colorsys`
-- Reproducible randomness for the star field
+</div>
 
-### Run it
+A glowing geometric mandala made with Python's built-in `turtle` graphics. Multiple rings of curved petals bloom over a starry night sky, with a colorful spiral winding through the center.
 
-Use Python 3 on a desktop with a graphical display and Tk support:
+<details open>
+<summary><strong>🔍 Peek inside the project</strong></summary>
+
+<br>
+
+| Ingredient | What it does |
+|---|---|
+| 🐢 `turtle` | Draws the mandala, stars, and spiral |
+| 🎨 `colorsys` | Turns hue values into vivid RGB colors |
+| 🎲 `random` | Sprinkles the sky with repeatable stars |
+| 🔁 Functions and loops | Build the design from reusable shapes |
+
+**Project file:** [`Neon_mandala.py`](./Neon_mandala.py)
+
+</details>
+
+## ▶ Run it
+
+You'll need **Python 3** and a desktop environment with Tk graphics support.
 
 ```bash
 python3 Neon_mandala.py
 ```
 
-The program opens a Turtle graphics window. Close the window to exit.
+The artwork opens in a Turtle window. Close the window when you're done exploring it.
 
-## 📅 The 30-day log
+## 🗓️ The 30-day map
 
-Each entry records the day's project and the work committed for it. Future entries will be filled in as the challenge progresses.
+**Pick a week to explore.** Completed days open to the project notes; upcoming days are ready for future builds.
 
-| Day | Project / daily work | Status |
+<details open>
+<summary><strong>🌱 Week 1 · Getting started</strong> — Day 01 complete</summary>
+
+<br>
+
+| Day | Build | Status |
 |:---:|---|:---:|
-| 01 | [Neon Mandala](./Neon_mandala.py) — layered petal rings, stars, and a colorful spiral | ✅ Complete · 2026-10-29 |
-| 02 | — | ⏳ Up next |
-| 03 | — | ⏳ Up next |
-| 04 | — | ⏳ Up next |
-| 05 | — | ⏳ Up next |
-| 06 | — | ⏳ Up next |
-| 07 | — | ⏳ Up next |
-| 08 | — | ⏳ Up next |
-| 09 | — | ⏳ Up next |
-| 10 | — | ⏳ Up next |
-| 11 | — | ⏳ Up next |
-| 12 | — | ⏳ Up next |
-| 13 | — | ⏳ Up next |
-| 14 | — | ⏳ Up next |
-| 15 | — | ⏳ Up next |
-| 16 | — | ⏳ Up next |
-| 17 | — | ⏳ Up next |
-| 18 | — | ⏳ Up next |
-| 19 | — | ⏳ Up next |
-| 20 | — | ⏳ Up next |
-| 21 | — | ⏳ Up next |
-| 22 | — | ⏳ Up next |
-| 23 | — | ⏳ Up next |
-| 24 | — | ⏳ Up next |
-| 25 | — | ⏳ Up next |
-| 26 | — | ⏳ Up next |
-| 27 | — | ⏳ Up next |
-| 28 | — | ⏳ Up next |
-| 29 | — | ⏳ Up next |
-| 30 | — | ⏳ Up next |
+| **01** | [🌸 Neon Mandala](#day-01--neon-mandala) · petals, stars & spiral | ✅ Complete · 2026-10-29 |
+| 02 | Something new | 🔜 Up next |
+| 03 | Something new | 🔜 Up next |
+| 04 | Something new | 🔜 Up next |
+| 05 | Something new | 🔜 Up next |
+| 06 | Something new | 🔜 Up next |
+| 07 | Something new | 🔜 Up next |
 
-## 🔄 Keeping this README current
+</details>
 
-After each day's work is committed:
+<details>
+<summary><strong>🌿 Week 2 · Keep experimenting</strong> — Days 08–14</summary>
 
-1. Add that day's project and a concise summary to the log.
-2. Mark the day complete and record the commit date.
-3. Update the progress count and bar at the top.
-4. Keep upcoming days marked as such until there is work to report.
+<br>
 
-This keeps the log grounded in the actual daily commits rather than planned or assumed work.
+| Day | Build | Status |
+|:---:|---|:---:|
+| 08 | To be discovered | 🔜 Up next |
+| 09 | To be discovered | 🔜 Up next |
+| 10 | To be discovered | 🔜 Up next |
+| 11 | To be discovered | 🔜 Up next |
+| 12 | To be discovered | 🔜 Up next |
+| 13 | To be discovered | 🔜 Up next |
+| 14 | To be discovered | 🔜 Up next |
 
----
+</details>
+
+<details>
+<summary><strong>🌳 Week 3 · Build on the basics</strong> — Days 15–21</summary>
+
+<br>
+
+| Day | Build | Status |
+|:---:|---|:---:|
+| 15 | To be discovered | 🔜 Up next |
+| 16 | To be discovered | 🔜 Up next |
+| 17 | To be discovered | 🔜 Up next |
+| 18 | To be discovered | 🔜 Up next |
+| 19 | To be discovered | 🔜 Up next |
+| 20 | To be discovered | 🔜 Up next |
+| 21 | To be discovered | 🔜 Up next |
+
+</details>
+
+<details>
+<summary><strong>🌲 Week 4 · Finish strong</strong> — Days 22–30</summary>
+
+<br>
+
+| Day | Build | Status |
+|:---:|---|:---:|
+| 22 | To be discovered | 🔜 Up next |
+| 23 | To be discovered | 🔜 Up next |
+| 24 | To be discovered | 🔜 Up next |
+| 25 | To be discovered | 🔜 Up next |
+| 26 | To be discovered | 🔜 Up next |
+| 27 | To be discovered | 🔜 Up next |
+| 28 | To be discovered | 🔜 Up next |
+| 29 | To be discovered | 🔜 Up next |
+| 30 | To be discovered | 🔜 Up next |
+
+</details>
+
+## 💡 How to follow along
+
+The map grows with the projects—**only mark a day complete when its work is committed.** For each new day:
+
+1. Add the project and a quick description to its day in the map.
+2. Link the project name to its source file.
+3. Mark it complete and add the commit date.
+4. Update the progress count and percentage at the top.
 
 <div align="center">
 
-*Built one day at a time with Python 🐍*
+### Every day is a new little adventure. See you at Day 02! 🚀
+
+[⬆ Back to the top](#-30-days-of-python)
 
 </div>
