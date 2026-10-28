@@ -44,7 +44,7 @@ def spiral():
     t.setheading(0)
     t.pendown()
     for i in range(150):
-        t.pendown(glow(0.55+i/150))
+        t.pencolor(glow(0.55+i/150))
         t.forward(2+i*0.35)
         t.left(59)
     t.penup()
