@@ -7,6 +7,7 @@ random.seed(11)
 screen = turtle.Screen()
 screen.setup(800,480)
 screen.bgcolor("#07040f")
+screen.setworldcoordinates(-400,-240,400,240)
 screen.colormode(1.0)
 
 t = turtle.Turtle()
