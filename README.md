@@ -5,13 +5,13 @@
 ### ✨ Learn by making. One little project at a time. ✨
 
 <a href="#the-journey"><img src="https://img.shields.io/badge/🗺️_EXPLORE-THE_JOURNEY-7C3AED?style=for-the-badge" alt="Explore the journey"></a>
-<a href="#day-01--neon-mandala"><img src="https://img.shields.io/badge/🎨_CURRENT_BUILD-NEON_MANDALA-DB2777?style=for-the-badge" alt="Jump to the current build"></a>
+<a href="#day-02--vortex-mandala"><img src="https://img.shields.io/badge/🎨_CURRENT_BUILD-VORTEX_MANDALA-DB2777?style=for-the-badge" alt="Jump to the current build"></a>
 <a href="#run-it"><img src="https://img.shields.io/badge/▶_RUN-IT-0891B2?style=for-the-badge" alt="Jump to run instructions"></a>
 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
-![Challenge progress](https://img.shields.io/badge/Progress-01%20%2F%2030-8B5CF6?style=flat-square)
+![Challenge progress](https://img.shields.io/badge/Progress-02%20%2F%2030-8B5CF6?style=flat-square)
 ![Projects](https://img.shields.io/badge/Projects-and%20counting-F97316?style=flat-square)
 
 <br>
@@ -20,9 +20,9 @@
 
 **30 days. 30 small builds. A little more Python confidence every day.**
 
-`DAY 01` &nbsp; ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━○ &nbsp; `DAY 30`
+`DAY 02` &nbsp; ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━○ &nbsp; `DAY 30`
 
-**01 / 30 complete** &nbsp; · &nbsp; **3% explored**
+**02 / 30 complete** &nbsp; · &nbsp; **7% explored**
 
 </div>
 
@@ -34,6 +34,7 @@
 
 [🌌 The journey](#the-journey) &nbsp; ◇ &nbsp;
 [✨ Day 01](#day-01--neon-mandala) &nbsp; ◇ &nbsp;
+[🌀 Day 02](#day-02--vortex-mandala) &nbsp; ◇ &nbsp;
 [▶ Run it](#run-it) &nbsp; ◇ &nbsp;
 [🗓️ Challenge map](#the-30-day-map) &nbsp; ◇ &nbsp;
 [💡 How to follow along](#how-to-follow-along)
@@ -48,9 +49,9 @@ Welcome to my **30-Day Python Challenge**: a hands-on streak of visual experimen
 
 <div align="center">
 
-> ### 🌠 First stop: a little neon, a lot of symmetry.
+> ### 🌠 Two days in: from neon petals to a spinning vortex.
 >
-> **Day 01 is live:** petals orbit, stars sparkle, and a spiral takes center stage.
+> **Day 02 is live:** a rainbow vortex of star-like shapes radiates from the center.
 
 </div>
 
@@ -80,29 +81,53 @@ A glowing geometric mandala made with Python's built-in `turtle` graphics. Multi
 
 </details>
 
+## 🌀 Day 02 — Vortex Mandala
+
+A colorful vortex drawn with Python's built-in `turtle` graphics. Star-like paths spiral outward from the origin, with shifting rainbow outlines and dark fill accents. The drawing is centered in a larger turtle coordinate space so it has room around the edges.
+
+<details>
+<summary><strong>🔍 Peek inside the project</strong></summary>
+
+<br>
+
+| Ingredient | What it does |
+|---|---|
+| 🐢 `turtle` | Draws the radial pattern on a black canvas |
+| 🎨 `colorsys` | Generates rainbow outline and fill colors |
+| 📐 `math` | Calculates the outward spacing and changing line widths |
+| 🔁 Loops and trigonometry | Repeat star-like paths around the center |
+
+**Project file:** [`Vortex_Mandala.py`](./Vortex_Mandala.py)
+
+</details>
+
 ## ▶ Run it
 
 You'll need **Python 3** and a desktop environment with Tk graphics support.
 
 ```bash
+# Day 01 — Neon Mandala
 python3 Neon_mandala.py
+
+# Day 02 — Vortex Mandala
+python3 Vortex_Mandala.py
 ```
 
-The artwork opens in a Turtle window. Close the window when you're done exploring it.
+Each artwork opens in a Turtle window. Close the window when you're done exploring it.
 
 ## 🗓️ The 30-day map
 
 **Pick a week to explore.** Completed days open to the project notes; upcoming days are ready for future builds.
 
 <details open>
-<summary><strong>🌱 Week 1 · Getting started</strong> — Day 01 complete</summary>
+<summary><strong>🌱 Week 1 · Getting started</strong> — Days 01–02 complete</summary>
 
 <br>
 
 | Day | Build | Status |
 |:---:|---|:---:|
 | **01** | [🌸 Neon Mandala](#day-01--neon-mandala) · petals, stars & spiral | ✅ Complete · 2026-10-29 |
-| 02 | Something new | 🔜 Up next |
+| **02** | [🌀 Vortex Mandala](#day-02--vortex-mandala) · rainbow star paths | ✅ Complete · 2026-10-30 |
 | 03 | Something new | 🔜 Up next |
 | 04 | Something new | 🔜 Up next |
 | 05 | Something new | 🔜 Up next |
@@ -175,7 +200,7 @@ The map grows with the projects—**only mark a day complete when its work is co
 
 <div align="center">
 
-### Every day is a new little adventure. See you at Day 02! 🚀
+### Every day is a new little adventure. See you at Day 03! 🚀
 
 [⬆ Back to the top](#-30-days-of-python)
 
