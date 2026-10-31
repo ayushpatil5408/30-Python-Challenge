@@ -5,13 +5,13 @@
 ### ✨ Learn by making. One little project at a time. ✨
 
 <a href="#the-journey"><img src="https://img.shields.io/badge/🗺️_EXPLORE-THE_JOURNEY-7C3AED?style=for-the-badge" alt="Explore the journey"></a>
-<a href="#day-03--sparkle-art"><img src="https://img.shields.io/badge/🎨_CURRENT_BUILD-SPARKLE_ART-DB2777?style=for-the-badge" alt="Jump to the current build"></a>
+<a href="#day-04--circular-lattice"><img src="https://img.shields.io/badge/🎨_CURRENT_BUILD-CIRCULAR_LATTICE-DB2777?style=for-the-badge" alt="Jump to the current build"></a>
 <a href="#run-it"><img src="https://img.shields.io/badge/▶_RUN-IT-0891B2?style=for-the-badge" alt="Jump to run instructions"></a>
 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
-![Challenge progress](https://img.shields.io/badge/Progress-03%20%2F%2030-8B5CF6?style=flat-square)
+![Challenge progress](https://img.shields.io/badge/Progress-04%20%2F%2030-8B5CF6?style=flat-square)
 ![Projects](https://img.shields.io/badge/Projects-and%20counting-F97316?style=flat-square)
 
 <br>
@@ -20,9 +20,9 @@
 
 **30 days. 30 small builds. A little more Python confidence every day.**
 
-`DAY 03` &nbsp; ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━○ &nbsp; `DAY 30`
+`DAY 04` &nbsp; ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━○ &nbsp; `DAY 30`
 
-**03 / 30 complete** &nbsp; · &nbsp; **10% explored**
+**04 / 30 complete** &nbsp; · &nbsp; **13% explored**
 
 </div>
 
@@ -36,6 +36,7 @@
 [✨ Day 01](#day-01--neon-mandala) &nbsp; ◇ &nbsp;
 [🌀 Day 02](#day-02--vortex-mandala) &nbsp; ◇ &nbsp;
 [✨ Day 03](#day-03--sparkle-art) &nbsp; ◇ &nbsp;
+[🔵 Day 04](#day-04--circular-lattice) &nbsp; ◇ &nbsp;
 [▶ Run it](#run-it) &nbsp; ◇ &nbsp;
 [🗓️ Challenge map](#the-30-day-map) &nbsp; ◇ &nbsp;
 [💡 How to follow along](#how-to-follow-along)
@@ -50,9 +51,9 @@ Welcome to my **30-Day Python Challenge**: a hands-on streak of visual experimen
 
 <div align="center">
 
-> ### 🌠 Three days in: from neon petals to a spinning vortex and animated sparkles.
+> ### 🌠 Four days in: from neon petals to a spinning vortex, animated sparkles, and a cosmic lattice.
 >
-> **Day 03 is live:** a colorful animated sparkle pattern radiates from the center.
+> **Day 04 is live:** a rainbow circular lattice animates among twinkling stars.
 
 </div>
 
@@ -122,6 +123,27 @@ An animated burst of colorful sparkles drawn with Python's built-in `turtle` gra
 
 </details>
 
+## 🔵 Day 04 — Circular Lattice
+
+An animated rainbow lattice connects a rotating inner ring to a shifting outer ring, surrounded by twinkling stars. Python's built-in `turtle` graphics redraws the pattern in a loop to create a colorful cosmic animation.
+
+<details>
+<summary><strong>🔍 Peek inside the project</strong></summary>
+
+<br>
+
+| Ingredient | What it does |
+|---|---|
+| 🐢 `turtle` | Draws the lattice and star field on a black canvas |
+| 🎨 `colorsys` | Generates rainbow colors for the lattice |
+| 📐 `math` | Calculates the rotating points, radii, and star twinkle |
+| 🎲 `random` | Creates repeatable star positions and properties |
+| 🔁 Loops and animation | Redraw the pattern with changing positions and brightness |
+
+**Project file:** [`Circular Lattice animation.py`](./Circular%20Lattice%20animation.py)
+
+</details>
+
 ## ▶ Run it
 
 You'll need **Python 3** and a desktop environment with Tk graphics support.
@@ -135,6 +157,9 @@ python3 Vortex_Mandala.py
 
 # Day 03 — Sparkle Art
 python3 Sparkel_art.py
+
+# Day 04 — Circular Lattice
+python3 "Circular Lattice animation.py"
 ```
 
 Each artwork opens in a Turtle window. Close the window when you're done exploring it.
@@ -153,7 +178,7 @@ Each artwork opens in a Turtle window. Close the window when you're done explori
 | **01** | [🌸 Neon Mandala](#day-01--neon-mandala) · petals, stars & spiral | ✅ Complete · 2026-10-29 |
 | **02** | [🌀 Vortex Mandala](#day-02--vortex-mandala) · rainbow star paths | ✅ Complete · 2026-10-30 |
 | **03** | [✨ Sparkle Art](#day-03--sparkle-art) · animated rainbow sparkles | ✅ Complete · 2026-10-31 |
-| 04 | Something new | 🔜 Up next |
+| **04** | [🔵 Circular Lattice](#day-04--circular-lattice) · animated rainbow lattice & stars | ✅ Complete · 2026-11-01 |
 | 05 | Something new | 🔜 Up next |
 | 06 | Something new | 🔜 Up next |
 | 07 | Something new | 🔜 Up next |
@@ -224,7 +249,7 @@ The map grows with the projects—**only mark a day complete when its work is co
 
 <div align="center">
 
-### Every day is a new little adventure. See you at Day 04! 🚀
+### Every day is a new little adventure. See you at Day 05! 🚀
 
 [⬆ Back to the top](#-30-days-of-python)
 
